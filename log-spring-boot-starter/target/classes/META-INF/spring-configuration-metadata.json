@@ -1,0 +1,27 @@
+{
+  "groups": [
+    {
+      "name": "log",
+      "type": "cn.newgrand.sup.config.plumelogProperties",
+      "sourceType": "cn.newgrand.sup.config.plumelogProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "log.app-name",
+      "type": "java.lang.String",
+      "sourceType": "cn.newgrand.sup.config.plumelogProperties"
+    },
+    {
+      "name": "log.env",
+      "type": "java.lang.String",
+      "sourceType": "cn.newgrand.sup.config.plumelogProperties"
+    },
+    {
+      "name": "log.redis-host",
+      "type": "java.lang.String",
+      "sourceType": "cn.newgrand.sup.config.plumelogProperties"
+    }
+  ],
+  "hints": []
+}

@@ -1,0 +1,4 @@
+cn\newgrand\sup\config\plumelogProperties.class
+META-INF\spring-configuration-metadata.json
+cn\newgrand\sup\config\springLogStarterAutoConfiguration.class
+cn\newgrand\sup\config\TestFilter.class
