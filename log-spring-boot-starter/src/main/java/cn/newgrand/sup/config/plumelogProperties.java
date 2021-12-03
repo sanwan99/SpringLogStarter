@@ -6,6 +6,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 @ConfigurationProperties(prefix = "log")
 public class plumelogProperties {
 
+
         private String appName;
         private String redisHost;
         private String env;

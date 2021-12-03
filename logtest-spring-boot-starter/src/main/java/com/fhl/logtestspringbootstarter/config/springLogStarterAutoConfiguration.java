@@ -4,7 +4,7 @@ import ch.qos.logback.classic.Level;
 import ch.qos.logback.classic.LoggerContext;
 import ch.qos.logback.classic.filter.ThresholdFilter;
 import ch.qos.logback.classic.turbo.TurboFilter;
-import ch.qos.logback.core.spi.FilterReply;
+import ch.qos.logback.core.spi. FilterReply;
 import com.plumelog.logback.appender.RedisAppender;
 import org.slf4j.Marker;
 import org.slf4j.impl.StaticLoggerBinder;
@@ -22,7 +22,7 @@ public class  springLogStarterAutoConfiguration {
     plumelogProperties plumelogProperties =new plumelogProperties();
     @Bean
     public void initRedisAppender(){
-        RedisAppender redisAppender =new RedisAppender();
+        RedisAppender redisAppender =   new RedisAppender();
         redisAppender.setContext(ctx);
         ThresholdFilter filter = new ThresholdFilter();
         filter.setLevel(Level.INFO.levelStr);
@@ -30,6 +30,7 @@ public class  springLogStarterAutoConfiguration {
         redisAppender.addFilter(filter);
         redisAppender.setAppName( plumelogProperties.getAppName());
         redisAppender.setRedisHost(plumelogProperties.getRedisHost());
+        redisAppender.setRedisAuth(plumelogProperties.getRedisAuth());
         redisAppender.start();
         ctx.addTurboFilter(new TurboFilter() {
             @Override

@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="log-spring-boot-starter" />
+        <module name="testlogflase" />
         <module name="logstarter" />
+        <module name="log-spring-boot-starter" />
+        <module name="demo" />
         <module name="teststarter" />
         <module name="logtest-spring-boot-starter" />
-        <module name="demo" />
       </profile>
     </annotationProcessing>
   </component>
@@ -20,6 +21,7 @@
       <module name="log-spring-boot-starter" options="-parameters" />
       <module name="logstarter" options="-parameters" />
       <module name="logtest-spring-boot-starter" options="-parameters" />
+      <module name="testlogflase" options="-parameters" />
       <module name="teststarter" options="-parameters" />
     </option>
   </component>

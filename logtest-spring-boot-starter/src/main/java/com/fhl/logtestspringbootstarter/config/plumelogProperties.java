@@ -11,5 +11,6 @@ public class plumelogProperties {
         private String appName;
         private String redisHost;
         private String env;
+        private String redisAuth="";
     }
 
