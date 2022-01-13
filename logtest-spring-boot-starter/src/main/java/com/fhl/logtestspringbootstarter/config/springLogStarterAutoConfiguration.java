@@ -47,7 +47,6 @@ public class  springLogStarterAutoConfiguration {
         registration.setFilter(new UserServletFilter());
         registration.addUrlPatterns("/*");
         registration.setName("UserServletFilter");
-        registration.setOrder(1);
         return registration;
     }
 }

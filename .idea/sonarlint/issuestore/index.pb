@@ -41,3 +41,17 @@ Flogstarter/src/main/java/com/fhl/logstarter/LogstarterApplication.java,a\5\a5a
 Llogstarter/src/main/java/com/fhl/logstarter/config/LogbackConfiguration.java,5\9\5960ee8b1832bbbbc5dbc1972a1365373e0700a0
 z
 Jlogstarter/src/main/java/com/fhl/logstarter/config/plumelogProperties.java,6\3\63a10860e670d647be0ea9780c9e901370a1ebce
+s
+Cteststarter/src/main/java/com/fhl/teststarter/controller/Hello.java,b\6\b69f6e5f1995c4c6de04937703ab8420a217a727
+y
+Iteststarter/src/main/java/com/fhl/teststarter/TeststarterApplication.java,a\1\a16cd897ae9906df07c9513022c29deb3705f88e
+B
+logstarter/pom.xml,c\4\c4e7eddad465e1f6614dda8328e61cb049528c97
+C
+teststarter/pom.xml,3\7\37b45155e95268bf19340f3120ac9b1ede972728
+D
+testlogflase/pom.xml,4\2\429058205bc91bdfec74fef02c7b015d74a4d1ae
+S
+#logtest-spring-boot-starter/pom.xml,0\e\0e55b3894dc0e7ad26e4d52bb91b415867f05446
+™
+ilogtest-spring-boot-starter/src/main/java/com/fhl/logtestspringbootstarter/config/plumelogProperties.java,7\5\7531bf4c335a41addaa3f92b9d8dd42b3724163a

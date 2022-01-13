@@ -1,0 +1,12 @@
+
+b
+java:S1223"LRename this method to prevent any misunderstanding or make it a constructor.(Ëğ³‘
+X
+java:S1128"BRemove this unused import 'com.github.jaemon.dinger.DingerSender'.( —‚ö
+l
+java:S1128"VRemove this unused import 'com.github.jaemon.dinger.core.entity.enums.MessageSubType'.(÷ÿ÷ú
+n
+java:S1128"SRemove this unused import 'org.springframework.beans.factory.annotation.Autowired'.(¡¸Îùÿÿÿÿ
+e
+java:S1128"ORemove this unused import 'com.github.jaemon.dinger.core.entity.DingerRequest'.(ó¦ğ
+c	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ëğ³‘
