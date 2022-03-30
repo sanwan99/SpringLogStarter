@@ -1,0 +1,21 @@
+
+[
+java:S22590"@A "NullPointerException" could be thrown; "ac" is nullable here.(Ì³”·ıÿÿÿÿ
+I
+java:S1128"4Remove this unused import 'java.security.Principal'.(’ÛŞ[
+e
+java:S1128"JRemove this unused import 'org.springframework.beans.factory.BeanFactory'.(ĞÚû±ıÿÿÿÿ
+m
+java:S1128
+"RRemove this unused import 'org.springframework.web.context.WebApplicationContext'.(¦ôüøÿÿÿÿ
+`
+java:S1128"ERemove this unused import 'org.springframework.beans.BeansException'.(Æ¢ùìüÿÿÿÿ
+—
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‚“¶î
+h	java:S116"SRename this field "USER_KEY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„˜Òş
+7
+java:S1170"!Make this final field static too.(„˜Òş
+N	java:S1062"9Replace this use of System.out or System.err by a logger.(üñ ¶
+V	java:S125_"<This block of commented-out lines of code should be removed.(ïİªğÿÿÿÿÿ
+P
+java:S1144<"5Remove this unused private "registerUsername" method.(ßÙœ™úÿÿÿÿ
